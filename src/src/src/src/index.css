@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: Abhaya Libre;
+}
+
+#contain{
+  background-image: url(./assets/vecteezy_man-sitting-on-pie-chart-and-analyzing-data_4689128.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+
+@media (max-width:1023px){
+  #contain{
+    height: 10vh;
+  }
+}
+
+@media (max-width:639px){
+  .hide{
+    visibility: hidden;
+  }
